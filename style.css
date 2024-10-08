@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #121212;
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 15px;
+    background: #037df7a3;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 40px;
+}
+
+header nav ul li:first-child{
+    margin-right: auto;
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li a{
+    width: 100%;
+    color: #ffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 23px;
+    transition: 1s;
+}
+
+header nav ul li a:hover{
+    color: #121212;
+}
